@@ -1,0 +1,26 @@
+/**/
+.fh5co-form {
+  padding: 30px;
+  margin-top: 4em;
+  box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+/*Primary Button*/
+.btn-primary {
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  background: #33cccc;
+  color: #ffffff;
+}
+.fh5co-form .form-control {
+  font-size: 16px;
+  font-weight: 300;
+  height: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.fh5co-form .form-group {
+  margin-bottom: 30px;
+}
