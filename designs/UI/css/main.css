@@ -6,6 +6,7 @@ body {
 }
 
 /*Reference tag*/
+
 a {
   color: #33cccc;
   -moz-transition: all 0.3s ease;
@@ -14,17 +15,20 @@ a {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 a:hover {
   color: #29a3a3;
 }
 
 /*Menu tag*/
+
 .menu {
   padding: 0;
   margin: 30px 0 0 0;
 }
 
 /*Menu Unordered list*/
+
 .menu li {
   list-style: none;
   margin-bottom: 10px;
@@ -35,14 +39,17 @@ a:hover {
 }
 
 /*Menu links*/
+
 .menu li a {
   padding: 5px;
 }
+
 .menu li.active a {
   color: #b3b3b3;
 }
 
 /*Form with shadow box*/
+
 .fh5co-form {
   padding: 30px;
   margin-top: 4em;
@@ -54,11 +61,13 @@ a:hover {
 }
 
 /*Form grouped elements*/
+
 .fh5co-form .form-group {
   margin-bottom: 30px;
 }
 
 /*Form Not Registered*/
+
 .fh5co-form .form-group p {
   font-size: 14px;
   color: #9f9f9f;
@@ -66,11 +75,13 @@ a:hover {
 }
 
 /*Form not registered links*/
+
 .fh5co-form .form-group p a {
   color: #000000;
 }
 
 /*Form labels*/
+
 .fh5co-form label {
   font-weight: 300;
   font-size: 14px;
@@ -78,6 +89,7 @@ a:hover {
 }
 
 /*Form box*/
+
 .fh5co-form .form-control {
   font-size: 16px;
   font-weight: 300;
@@ -88,7 +100,8 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/*Form primary button*/
+/*Primary button*/
+
 .btn-primary {
   height: 50px;
   padding-right: 20px;
@@ -101,14 +114,38 @@ a:hover {
   -o-box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
   box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   color: #ffffff;
   background: #47d1d1 !important;
   outline: none;
 }
 
+/*Primary button2*/
+
+.btn-primary2 {
+  height: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  background: #0952c0;
+  color: #ffffff;
+}
+
+.btn-primary2:hover,
+.btn-primary2:focus,
+.btn-primary2:active {
+  color: #b1aeae;
+  background: #105e5e !important;
+  outline: none;
+}
+
 /*Input color*/
-input, textarea {
+
+input,
+textarea {
   color: #000;
 }
 
@@ -117,80 +154,122 @@ input, textarea {
 }
 
 #myInput {
-    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+  background-image: url('css/searchicon.png');
+  /* Add a search icon to input */
+  background-position: 10px 12px;
+  /* Position the search icon */
+  background-repeat: no-repeat;
+  /* Do not repeat the icon image */
+  width: 100%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
 }
 
 #myTable {
-    border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
-    border: 1px solid #ddd; /* Add a grey border */
-    font-size: 18px; /* Increase font-size */
+  border-collapse: collapse;
+  /* Collapse borders */
+  width: 100%;
+  /* Full-width */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  font-size: 18px;
+  /* Increase font-size */
 }
 
-#myTable th, #myTable td {
-    text-align: left; /* Left-align text */
-    padding: 12px; /* Add padding */
+#myTable th,
+#myTable td {
+  text-align: left;
+  /* Left-align text */
+  padding: 12px;
+  /* Add padding */
 }
 
 #myTable tr {
-    /* Add a bottom border to all table rows */
-    border-bottom: 1px solid #ddd; 
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
-    /* Add a grey background color to the table header and on hover */
-    background-color: #f1f1f1;
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
 }
-
 
 /*Review*/
-.btn-grey{
-    background-color:#D8D8D8;
-	color:#FFF;
-}
-.rating-block{
-	background-color:#FAFAFA;
-	border:1px solid #EFEFEF;
-	padding:15px 15px 20px 15px;
-	border-radius:3px;
-}
-.bold{
-	font-weight:700;
-}
-.padding-bottom-7{
-	padding-bottom:7px;
+
+.btn-grey {
+  background-color: #D8D8D8;
+  color: #FFF;
 }
 
-.review-block{
-	background-color:#FAFAFA;
-	border:1px solid #EFEFEF;
-	padding:15px;
-	border-radius:3px;
-	margin-bottom:15px;
+.rating-block {
+  background-color: #FAFAFA;
+  border: 1px solid #EFEFEF;
+  padding: 15px 15px 20px 15px;
+  border-radius: 3px;
 }
-.review-block-name{
-	font-size:12px;
-	margin:10px 0;
+
+.bold {
+  font-weight: 700;
 }
-.review-block-date{
-	font-size:12px;
+
+.padding-bottom-7 {
+  padding-bottom: 7px;
 }
-.review-block-rate{
-	font-size:13px;
-	margin-bottom:15px;
+
+.review-block {
+  background-color: #FAFAFA;
+  border: 1px solid #EFEFEF;
+  padding: 15px;
+  border-radius: 3px;
+  margin-bottom: 15px;
 }
-.review-block-title{
-	font-size:15px;
-	font-weight:700;
-	margin-bottom:10px;
+
+.review-block-name {
+  font-size: 12px;
+  margin: 10px 0;
 }
-.review-block-description{
-	font-size:13px;
+
+.review-block-date {
+  font-size: 12px;
 }
+
+.review-block-rate {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.review-block-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.review-block-description {
+  font-size: 13px;
+}
+
+.myColor {
+  color: red;
+}
+
+.myColor2 {
+  color: saddlebrown;
+}
+
+.myColor3 {
+  color: seagreen;
+}
+
+.row {
+  padding-top: -40px;
+  clear: both;
+}
+
