@@ -1,54 +1,21 @@
-; (function () {
-
-
-    'use strict';
-
-    // Placeholder 
-    var placeholderFunction = function () {
-        $('input, textarea').placeholder({ customClass: 'my-placeholder' });
+//Business directory
+    function myFunction() {
+  // Declare variables 
+  var input, filter, table, tr, td, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+  
+    // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+    } else {
+        tr[i].style.display = "none";
     }
-
-    // Placeholder 
-    var contentWayPoint = function () {
-        var i = 0;
-        $('.animate-box').waypoint(function (direction) {
-
-            if (direction === 'down' && !$(this.element).hasClass('animated-fast')) {
-
-                i++;
-
-                $(this.element).addClass('item-animate');
-                setTimeout(function () {
-
-                    $('body .animate-box.item-animate').each(function (k) {
-                        var el = $(this);
-                        setTimeout(function () {
-                            var effect = el.data('animate-effect');
-                            if (effect === 'fadeIn') {
-                                el.addClass('fadeIn animated-fast');
-                            } else if (effect === 'fadeInLeft') {
-                                el.addClass('fadeInLeft animated-fast');
-                            } else if (effect === 'fadeInRight') {
-                                el.addClass('fadeInRight animated-fast');
-                            } else {
-                                el.addClass('fadeInUp animated-fast');
-                            }
-
-                            el.removeClass('item-animate');
-                        }, k * 200, 'easeInOutExpo');
-                    });
-
-                }, 100);
-
-            }
-
-        }, { offset: '85%' });
-    };
-    // On load
-    $(function () {
-        placeholderFunction();
-        contentWayPoint();
-
-    });
-
-}());
+  }
+}
+}
