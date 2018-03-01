@@ -142,6 +142,25 @@ a:hover {
   outline: none;
 }
 
+/*Primary button3*/
+
+.btn-primary3 {
+  height: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  background: #cc2742;
+  color: #ffffff;
+}
+
+.btn-primary3:hover,
+.btn-primary3:focus,
+.btn-primary3:active {
+  color: #b1aeae;
+  background: #5e1010 !important;
+  outline: none;
+}
+
 /*Input color*/
 
 input,
