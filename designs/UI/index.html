@@ -24,6 +24,7 @@
 
     <link href="css/main.css" rel="stylesheet">
     <script src="js/main.js"></script>
+    <script src="js/server.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
 </head>
@@ -71,10 +72,20 @@
                         </p>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Sign In" class="btn btn-primary">
+                        <input type="submit" value="Sign In" class="btn btn-primary" onclick="auth()">
                     </div>
                 </form>
                 <!-- END Sign In Form -->
+                </div>
+                </div>
+                </br>
+                </br>
+                <div class="container">
+                    <form>
+                        <div class="form-group">
+                            <label for="token">Token</label>
+                            <input type="text" class="form-control" id="token" placeholder="token"></input>
+                        </div>
 
             </div>
         </div>
